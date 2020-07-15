@@ -2,7 +2,7 @@
 # eval.py
 # Dev. Dongwon Paek
 #
-# Description: Validation test of tflite model file.
+# Description: Validation test of PyTorch model file.
 ##########################################################################
 
 import os, sys, time
