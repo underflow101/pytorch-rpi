@@ -23,6 +23,7 @@ saved/
 example/
 mine/
 tests/
+*.jpg
 
 # C extensions
 *.so
