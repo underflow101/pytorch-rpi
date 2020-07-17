@@ -64,11 +64,11 @@ def main():
             data = image.unsqueeze(0)
             t1 = getTickCount()
             scores = model(data)
-            pred = scores.data.max(1)[1]
             t2 = getTickCount()
             time1 = (t2 - t1) / freq
             frame_rate_calc = 1 / time1
             sumsum += frame_rate_calc
+            pred = scores.data.max(1)[1]
 
         sumsum /= 100
         print('others: ', end='')
